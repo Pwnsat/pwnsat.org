@@ -4,6 +4,7 @@
 
 $body-bg-dark: $cosmic-900;
 $body-overlay-dark: darken($body-bg-dark, 2.5%);
+$body-code-dark: darken($cosmic-600, 2.5%);
 
 /*
 $border-dark: darken($body-bg-dark, 2.5%);
@@ -310,7 +311,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body code:not(.hljs) {
-  background: $body-overlay-dark;
+  background: $gray-900;
   color: $body-color-dark;
 }
 
