@@ -17,7 +17,7 @@ twitterCreator = "@henkverlinde"
 schemaType = "Organization"
 schemaName = "Pwnsat"
 schemaAuthorTwitter = "https://twitter.com/devkitty_io"
-schemaAuthorGitHub = "https://github.com/DevKitty-io"
+schemaAuthorGitHub = "https://github.com/Pwnsat"
 schemaLocale = "en-US"
 schemaLogo = "logo.png"
 schemaLogoWidth = 512
@@ -26,7 +26,7 @@ schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/devkitty_io"
-schemaGitHub = "https://github.com/DevKitty-io"
+schemaGitHub = "https://github.com/Pwnsat"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
