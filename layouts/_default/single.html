@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ partial "content/image_header.html" . }}
+<br>
 	<div class="row flex-xl-nowrap">
 		{{ if ne .Params.toc false -}}
 		<nav class="docs-toc{{ if ne .Site.Params.options.navbarSticky true }} docs-toc-top{{ end }} d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
@@ -7,9 +8,9 @@
 		</nav>
 		{{ end -}}
 		{{ if .Params.toc -}}
-		<main class="docs-content col-lg-11 col-xl{{ if eq .Site.Params.options.fullWidth false }}-9{{ end }}">
+		<main class="docs-content col-lg-11 col-xl{{ if eq .Site.Params.options.fullWidth false }}-11{{ end }}">
 		{{ else -}}
-		<main class="docs-content col-lg-11 col-xl-911mx-xl-auto">
+		<main class="docs-content col-lg-11 col-xl-11 mx-xl-auto">
 		{{ end -}}
 			{{ if .Site.Params.options.breadCrumb -}}
 				<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
