@@ -21,7 +21,7 @@ This post documents the process of extending Attack Flow Builder, the technical 
 
 > If you want to test this fork check the [repo.](https://github.com/JahazielLem/attack-flow)
 
-{{< figure src="main_screen.png" alt="Main Screen" caption="Attack Flow Main Screen" >}}
+![Attack Flow Main Screen](main_screen.png)
 
 ## Technical Approach
 ### 1. Understanding the data model
