@@ -1,13 +1,13 @@
 ---
 title: "Lessons from the Viasat Cyberattack: A SPARTA Framework Analysis"
 description: "Analysis of the Viasat KA-SAT cyberattack through the MITRE SPARTA framework. A case study that highlights vulnerabilities in the ground segment of satellite systems and the rise of tailored malware against space infrastructure."
-excerpt: "Analysis of the Viasat KA-SAT cyberattack through the MITRE SPARTA framework. A case study that highlights vulnerabilities in the ground segment of satellite systems and the rise of tailored malware against space infrastructure."
 draft: false
 weight: 50
 images: ["Cover.png"]
 categories: ["Space Cybersegurity", "Case Study", "Satellite Communications", "SPARTA"]
 tags: ["Viasat", "KA-SAT", "SPARTA", "AcidRain", "Space Security", "Cyberattack", "Ground Segment", "Satellite", "Pwnsat"]
 contributors: ["Kevin Leon"]
+author: ["Kevin Leon"]
 pinned: false
 homepage: true
 ---

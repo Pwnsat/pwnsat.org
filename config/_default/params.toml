@@ -54,6 +54,8 @@ imageAddClass = "img-fluid lazyload blur-up"
 defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
+# Logo Pwnsat
+logoPwnsat = "LogoPwnsat.png" # put in `./assets/images/`
 # Footer
 footer = "© 2025 Pwnsat | LyndLabs"
 
