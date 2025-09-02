@@ -1,11 +1,11 @@
 ---
 title: "From MITRE ATT&CK to SPARTA: A Unified Attack Flow for Space Systems"
-description: "Analysis of the Viasat KA-SAT cyberattack through the MITRE SPARTA framework. A case study that highlights vulnerabilities in the ground segment of satellite systems and the rise of tailored malware against space infrastructure."
+description: "This post explores how we integrated SPARTA, a framework designed for space systems security, into the MITRE Attack Flow Builder. By combining ATT&CK’s structured threat modeling with SPARTA’s domain-specific techniques, we created a more complete approach for visualizing and simulating cyberattacks on space systems. We’ll walk through the integration process, highlight technical challenges, and share lessons learned for researchers and practitioners working in advanced threat simulation."
 draft: false
 weight: 50
 images: ["Cover.png"]
-categories: ["Space Cybersegurity", "Case Study", "Satellite Communications", "SPARTA"]
-tags: ["Viasat", "KA-SAT", "SPARTA", "AcidRain", "Space Security", "Cyberattack", "Ground Segment", "Satellite", "Pwnsat"]
+categories: ["Space Cybersegurity", "Implementation", "Satellite Communications", "SPARTA"]
+tags: ["SPARTA", "MITRE", "TTPS", "Space Security", "Ground Segment", "Satellite", "Pwnsat"]
 contributors: ["Kevin Leon"]
 author: ["Kevin Leon"]
 pinned: false
@@ -19,9 +19,7 @@ The challenge: how to integrate **[SPARTA](https://sparta.aerospace.org/)** (a c
 
 This post documents the process of extending Attack Flow Builder, the technical details of the integration, and the results of enabling **hybrid attack flows** that combine MITRE ATT&CK with SPARTA.
 
-
 > If you want to test this fork check the [repo.](https://github.com/JahazielLem/attack-flow)
-
 
 {{< figure src="main_screen.png" alt="Main Screen" caption="Attack Flow Main Screen" >}}
 
@@ -34,7 +32,7 @@ SPARTA already provides a `STIX` dataset with its TTPs, but this is not directly
 
 ### 2. Mapping identifiers
 
-MITRE ATT&CK uses identifiers such as `TA0001` or `T1003`. SPARTA, however, defines techniques with a `PREFIX-NUMBER` pattern (e.g., `EX-0001`). 
+MITRE ATT&CK uses identifiers such as `TA0001` or `T1003`. SPARTA, however, defines techniques with a `PREFIX-NUMBER` pattern (e.g., `EX-0001`).
 
 Since MITRE ATT&CK works with **Tactics** and **Techniques**, I modified the parsing logic in Attack Flow Builder to also support **sub-techniques** for SPARTA.
 #### Accept Tactics
