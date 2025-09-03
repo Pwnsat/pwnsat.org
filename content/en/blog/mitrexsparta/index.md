@@ -12,7 +12,6 @@ pinned: false
 homepage: false
 ---
 
-## Introduction
 One of the most powerful aspects of cybersecurity research is the ability to extend and adapt existing tools to cover new domains. While the **[Attack Flow Builder](https://github.com/center-for-threat-informed-defense/attack-flow)** from MITRE was originally designed to visualize and model cyber operations based on the **MITRE ATT&CK framework**, I needed to go a step further for my research in **space cybersecurity**.
 
 The challenge: how to integrate **[SPARTA](https://sparta.aerospace.org/)** (a cybersecurity framework for space systems) into the Attack Flow Builder so that we can model attacks not only in traditional IT/OT contexts, but also in the space domain.

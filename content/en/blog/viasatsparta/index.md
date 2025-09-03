@@ -9,7 +9,7 @@ tags: ["Viasat", "KA-SAT", "SPARTA", "AcidRain", "Space Security", "Cyberattack"
 contributors: ["Kevin Leon"]
 author: ["Kevin Leon"]
 pinned: false
-homepage: true
+homepage: false
 ---
 
 In February 2022, one of the most notable cyber incidents in the space sector took place: the **Viasat KA-SAT cyberattack**. This event disrupted satellite communications across Europe, affecting both civilian and military users. For the cybersecurity and space communities, the incident stands as a turning point, highlighting how vulnerable the ground and user segments of space systems can be when targeted with coordinated cyber operations.
