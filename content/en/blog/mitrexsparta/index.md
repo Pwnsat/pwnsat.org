@@ -9,7 +9,7 @@ tags: ["SPARTA", "MITRE", "TTPS", "Space Security", "Ground Segment", "Satellite
 contributors: ["Kevin Leon"]
 author: ["Kevin Leon"]
 pinned: false
-homepage: true
+homepage: false
 ---
 
 ## Introduction
@@ -147,7 +147,7 @@ This cross-domain visibility is crucial for analyzing cyber threats to **space-g
 
 ![Showcase SPARTA](Shocase.gif)
 
-### Why This Matters
+## Why This Matters
 The integration highlights two key insights:
 1. **Extensibility of MITRE tools** – with minor modifications, existing frameworks can be adapted to entirely new domains.
 2. **Bridging IT and Space Cybersecurity** – researchers now have a way to represent and analyze threats that cross from enterprise IT systems into spacecraft operations.
@@ -155,7 +155,7 @@ The integration highlights two key insights:
 This work is not about replacing ATT&CK or SPARTA, but about **making them interoperable** in a way that improves threat modeling and visualization for the community.
 
 
-### About Attack Flow
+## About Attack Flow
 This work is a fork of the **[Attack Flow Builder](https://github.com/center-for-threat-informed-defense/attack-flow?utm_source=chatgpt.com)**, originally created and maintained by the [MITRE Center for Threat-Informed Defense](https://ctid.mitre.org/?utm_source=chatgpt.com) to advance the state of the art in threat-informed defense.
 
 According to the official repository:
@@ -164,7 +164,7 @@ According to the official repository:
 
 This fork is **maintained independently by the PWNSAT team** and is **not affiliated with MITRE or the Center for Threat-Informed Defense**.
 
-### Disclaimer
+## Disclaimer
 
 This project is an independent fork of MITRE’s Attack Flow Builder. It is maintained by the PWNSAT team for research and educational purposes.
 
