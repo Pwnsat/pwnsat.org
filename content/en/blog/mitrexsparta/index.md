@@ -144,7 +144,7 @@ A researcher can, for example, model an intrusion scenario where initial access 
 
 This cross-domain visibility is crucial for analyzing cyber threats to **space-ground systems**, where enterprise IT attacks intersect with satellite-specific vulnerabilities.
 
-![Showcase SPARTA](Shocase.gif)
+![Showcase SPARTA](showcase.png)
 
 ## Why This Matters
 The integration highlights two key insights:
