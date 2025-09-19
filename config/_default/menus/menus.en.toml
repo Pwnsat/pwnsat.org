@@ -46,7 +46,7 @@
 
 [[main]]
   name = "Blog"
-  url = "/blog"
+  url = "https://medium.com/me/following-feed/writers/db493f20f689"
   weight = 50
 
 [[social]]
